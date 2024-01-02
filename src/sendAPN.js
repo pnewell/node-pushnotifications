@@ -1,4 +1,4 @@
-const apn = require('@parse/node-apn');
+const apn = require('node-apn');
 const R = require('ramda');
 const { DEFAULT_TTL, APN_METHOD } = require('./constants');
 
